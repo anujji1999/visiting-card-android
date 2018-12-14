@@ -1,4 +1,4 @@
-package com.community.jboss.visitingcard.IntroScreens;
+package com.community.jboss.visitingcard.introscreens;
 
 import android.content.Context;
 import android.support.annotation.NonNull;

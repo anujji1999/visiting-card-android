@@ -1,4 +1,4 @@
-package com.community.jboss.visitingcard.Maps;
+package com.community.jboss.visitingcard.maps;
 
 import android.content.Intent;
 import android.support.design.widget.BottomSheetBehavior;
@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.community.jboss.visitingcard.R;
-import com.community.jboss.visitingcard.VisitingCard.ViewVisitingCard;
+import com.community.jboss.visitingcard.visitingcard.ViewVisitingCard;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
