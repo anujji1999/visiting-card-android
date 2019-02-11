@@ -32,9 +32,22 @@
             android:singleLine="true"
             android:title="Phone number" />
         <EditTextPreference
-            android:inputType="textPostalAddress"
-            android:key="card_address"
-            android:maxLines="2"
-            android:title="Postal address" />
+          android:inputType="textVisiblePassword|textNoSuggestions"
+          android:key="card_linkedin"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:title="LinkedIn username" />
+        <EditTextPreference
+          android:inputType="textVisiblePassword|textNoSuggestions"
+          android:key="card_twitter"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:title="Twitter username" />
+        <EditTextPreference
+          android:inputType="textVisiblePassword|textNoSuggestions"
+          android:key="card_github"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:title="GitHub username" />
     </PreferenceCategory>
 </PreferenceScreen>

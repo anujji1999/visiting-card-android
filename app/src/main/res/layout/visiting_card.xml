@@ -45,16 +45,18 @@
                         android:onClick="select_img"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
+                        android:scaleType="centerCrop"
                         android:src="@drawable/man"/>
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="18sp"
-                        android:textColor="#fff"
-                        android:fontFamily="sans-serif-smallcaps"
-                        android:textAlignment="center"
-                        android:text="Name Here"
-                        android:layout_marginTop="10dp"/>
+                      android:id="@+id/name_text"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:fontFamily="sans-serif-smallcaps"
+                      android:text="Name Here"
+                      android:textAlignment="center"
+                      android:textColor="#fff"
+                      android:textSize="18sp"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -76,15 +78,16 @@
                             android:src="@drawable/call"
                             android:padding="5dp"/>
                         <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:padding="5dp"
-                            android:textSize="15sp"
-                            android:textColor="#000"
-                            android:fontFamily="sans-serif-smallcaps"
-                            android:textAlignment="center"
-                            android:text="xxx-xxxx-xxx"
-                            android:layout_marginLeft="10dp"/>
+                          android:id="@+id/phone_text"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+                          android:padding="5dp"
+                          android:fontFamily="sans-serif-smallcaps"
+                          android:text="xxx-xxxx-xxx"
+                          android:textAlignment="center"
+                          android:textColor="#000"
+                          android:textSize="15sp"/>
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -97,15 +100,16 @@
                             android:padding="5dp"
                             android:src="@drawable/mail"/>
                         <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:padding="5dp"
-                            android:textSize="15sp"
-                            android:textColor="#000"
-                            android:fontFamily="sans-serif-smallcaps"
-                            android:textAlignment="center"
-                            android:text="email@domain.com"
-                            android:layout_marginLeft="10dp"/>
+                          android:id="@+id/email_text"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginLeft="10dp"
+                          android:padding="5dp"
+                          android:fontFamily="sans-serif-smallcaps"
+                          android:text="email@domain.com"
+                          android:textAlignment="center"
+                          android:textColor="#000"
+                          android:textSize="15sp"/>
 
                     </LinearLayout>
                 </LinearLayout>
@@ -130,15 +134,16 @@
                         android:src="@drawable/linkedin"
                         android:padding="5dp"/>
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp"
-                        android:textSize="15sp"
-                        android:textColor="#fff"
-                        android:fontFamily="sans-serif-smallcaps"
-                        android:textAlignment="center"
-                        android:text="www.linkedin.com/xxxxx"
-                        android:layout_marginLeft="10dp"/>
+                      android:id="@+id/linkedin_text"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="10dp"
+                      android:padding="5dp"
+                      android:fontFamily="sans-serif-smallcaps"
+                      android:text="www.linkedin.com/xxxxx"
+                      android:textAlignment="center"
+                      android:textColor="#fff"
+                      android:textSize="15sp"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -151,15 +156,16 @@
                         android:padding="5dp"
                         android:src="@drawable/twitter"/>
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp"
-                        android:textSize="15sp"
-                        android:textColor="#fff"
-                        android:fontFamily="sans-serif-smallcaps"
-                        android:textAlignment="center"
-                        android:text="www.twitter.com/xxxxx"
-                        android:layout_marginLeft="10dp"/>
+                      android:id="@+id/twitter_text"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="10dp"
+                      android:padding="5dp"
+                      android:fontFamily="sans-serif-smallcaps"
+                      android:text="www.twitter.com/xxxxx"
+                      android:textAlignment="center"
+                      android:textColor="#fff"
+                      android:textSize="15sp"/>
 
                 </LinearLayout>
                 <LinearLayout
@@ -173,15 +179,16 @@
                         android:padding="5dp"
                         android:src="@drawable/git"/>
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp"
-                        android:textSize="15sp"
-                        android:textColor="#fff"
-                        android:fontFamily="sans-serif-smallcaps"
-                        android:textAlignment="center"
-                        android:text="www.github.com/xxxxx"
-                        android:layout_marginLeft="10dp"/>
+                      android:id="@+id/github_text"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="10dp"
+                      android:padding="5dp"
+                      android:fontFamily="sans-serif-smallcaps"
+                      android:text="www.github.com/xxxxx"
+                      android:textAlignment="center"
+                      android:textColor="#fff"
+                      android:textSize="15sp"/>
 
                 </LinearLayout>
             </LinearLayout>
@@ -192,7 +199,7 @@
         android:id="@+id/fab"
         android:layout_below="@+id/card"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="20"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="8dp"
